@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;  /* Ensure the body and html take full viewport height */
+}
+
+/* Flex container for centering */
+.login-container {
+  display: flex;
+  justify-content: center;   /* Centers horizontally */
+  align-items: center;       /* Centers vertically */
+  height: 100vh;              /* Full viewport height */
+  background-color: #f1f3f5;  /* Optional background color */
+  padding: 0;
+}
+
+/* Login box styling */
+.login-box {
+  margin: auto;
+  width: 400px;
+  padding: 20px;
+  background-color: rgba(250, 249, 249, 0.976);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Ensures input fields and button align horizontally */
+  box-sizing: border-box;
+}
+
+/* Optional styling for heading */
+.login-heading {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 40px;
+}
+
+/* Styling for the input fields */
+.login-input {
+  background-color: white;
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+/* Styling for the button */
+.login-button {
+  background-color: #3182ce;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #2b6cb0;
+}
+
+
+  
