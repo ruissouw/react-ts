@@ -16,13 +16,12 @@ html, body {
   justify-content: center;   /* Centers horizontally */
   align-items: center;       /* Centers vertically */
   height: 100vh;              /* Full viewport height */
-  background-color: #f1f3f5;  /* Optional background color */
+  background-color: #e3e9ef;  /* Optional background color */
   padding: 0;
 }
 
 /* Login box styling */
 .login-box {
-  margin: auto;
   width: 400px;
   padding: 20px;
   background-color: rgba(250, 249, 249, 0.976);
