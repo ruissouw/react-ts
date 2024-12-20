@@ -6,7 +6,7 @@ import './Navbar.css'
 const Username = () => {
   return (
     <HStack wrap="wrap" gap="6">
-      <Button variant="ghost" size="2xl">Username</Button>
+      <Button variant="ghost" size="xl">Username</Button>
     </HStack>
   )
 }

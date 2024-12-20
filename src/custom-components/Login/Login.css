@@ -15,7 +15,7 @@ html, body {
   display: flex;
   justify-content: center;   /* Centers horizontally */
   align-items: center;       /* Centers vertically */
-  height: 100vh;              /* Full viewport height */
+  height: 90vh;              /* Full viewport height */
   background-color: #e3e9ef;  /* Optional background color */
   padding: 0;
 }
@@ -25,7 +25,7 @@ html, body {
   width: 400px;
   padding: 20px;
   background-color: rgba(250, 249, 249, 0.976);
-  border-radius: 8px;
+  border-radius: 18px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -43,9 +43,9 @@ html, body {
 /* Styling for the input fields */
 .login-input {
   background-color: white;
-  margin-bottom: 12px;
+  margin-bottom: 5px;
   padding: 10px;
-  border-radius: 4px;
+  border-radius: 10px;
   border: 1px solid #ccc;
   width: 100%;
 }
